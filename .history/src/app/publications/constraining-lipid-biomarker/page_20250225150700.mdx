@@ -1,0 +1,21 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Hannah Dion-Kirschner',
+  date: '2017-12',
+  title: 'Constraining lipid biomarker paleoclimate proxies in a small arctic watershed',
+  description:
+  'Arctic amplification of climate change renders high-latitude environments unusually sensitive to changes in climatic conditions (Serreze and Barry, 2011). Lipid biomarkers, and their hydrogen and carbon isotopic compositions, can yield valuable paleoclimatic and paleoecological information. However, many variables affect the production and preservation of lipids and their constituent isotopes, including precipitation, plant growth conditions, biosynthesis mechanisms, and sediment depositional processes (Sachse et al., 2012). These variables are particularly poorly constrained for high-latitude environments, where trees are sparse or not present, and plants grow under continuous summer light and cool temperatures during a short growing season. Here we present a source-to-sink study of a single watershed from the Kangerlussuaq region of southwest Greenland. '
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Arctic amplification of climate change renders high-latitude environments unusually sensitive to changes in climatic conditions (Serreze and Barry, 2011). Lipid biomarkers, and their hydrogen and carbon isotopic compositions, can yield valuable paleoclimatic and paleoecological information. However, many variables affect the production and preservation of lipids and their constituent isotopes, including precipitation, plant growth conditions, biosynthesis mechanisms, and sediment depositional processes (Sachse et al., 2012). These variables are particularly poorly constrained for high-latitude environments, where trees are sparse or not present, and plants grow under continuous summer light and cool temperatures during a short growing season. Here we present a source-to-sink study of a single watershed from the Kangerlussuaq region of southwest Greenland. 
+<Image src={designSystem} alt="" />
+

@@ -1,0 +1,21 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Hannah Dion-Kirschner',
+  date: '2020-12',
+  title: 'Constraining lipid biomarker paleoclimate proxies in a small arctic watershed',
+  description:
+  'Arctic amplification of climate change renders high-latitude environments unusually sensitive to changes in climatic conditions (Serreze and Barry, 2011). Lipid biomarkers, and their hydrogen and carbon isotopic compositions, can yield valuable paleoclimatic and paleoecological information. However, many variables affect the production and preservation of lipids and their constituent isotopes, including precipitation, plant growth conditions, biosynthesis mechanisms, and sediment depositional processes (Sachse et al., 2012). These variables are particularly poorly constrained for high-latitude environments, where trees are sparse or not present, and plants grow under continuous summer light and cool temperatures during a short growing season. Here we present a source-to-sink study of a single watershed from the Kangerlussuaq region of southwest Greenland. '
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Arctic amplification of climate change renders high-latitude environments unusually sensitive to changes in climatic conditions (Serreze and Barry, 2011). Lipid biomarkers, and their hydrogen and carbon isotopic compositions, can yield valuable paleoclimatic and paleoecological information. However, many variables affect the production and preservation of lipids and their constituent isotopes, including precipitation, plant growth conditions, biosynthesis mechanisms, and sediment depositional processes (Sachse et al., 2012). These variables are particularly poorly constrained for high-latitude environments, where trees are sparse or not present, and plants grow under continuous summer light and cool temperatures during a short growing season. Here we present a source-to-sink study of a single watershed from the Kangerlussuaq region of southwest Greenland. Our analytes from in and around `Little Sugarloaf Lake' (LSL) include terrestrial and aquatic plants, plankton, modern lake water, surface sediments, and a sediment core. This diverse sample set allows us to fulfill three goals: 1) We evaluate the production of lipids and isotopic signatures in the modern watershed in comparison to modern climate. Our data exhibit genus-level trends in leaf wax production and isotopic composition, and help clarify the difference between terrestrial and aquatic signals. 2) We evaluate the surface sediment of LSL to determine how lipid biomarkers from the watershed are incorporated into sediments. We constrain the relative contributions of terrestrial plants, aquatic plants, and other aquatic organisms to the sediment in this watershed. 3) We apply this modern source-to-sink calibration to the analysis of a 65 cm sediment core record. Our core is organic-rich, and relatively high deposition rates allow us to reconstruct paleoenvironmental changes with high resolution. Our work will help determine the veracity of these common paleoclimate proxies, specifically for research in southwest Greenland, and will enable an accurate, high-resolution watershed-level reconstruction of Holocene conditions. Serreze, M. and Barry, R. (2011). Global and Planetary Change, 77, 85-96. Sachse, D., et al. (2012). Annual Review of Earth and Planetary Sciences, 40, 221-249.
+<Image src={designSystem} alt="" />
+

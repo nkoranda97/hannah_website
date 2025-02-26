@@ -1,0 +1,21 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Hannah Dion-Kirschner',
+  date: '2020-10-01',
+  title: 'Modern constraints on the sources and climate signals recorded by sedimentary plant waxes in west Greenland',
+  description:
+  'The hydrogen isotopic composition (δ2H values) of plant waxes preserved in the sedimentary record is a useful proxy for past hydroclimate, but a number of known biological and environmental factors can confound the climate signal this proxy records. High-latitude ecology and environmental conditions differ from those of the better-studied low latitudes, and the influence of arctic conditions on factors that affect δ2H records of climate is poorly constrained. Direct observations of arctic plant waxes and their δ2H values, particularly from aquatic plants, are very limited. Here we present a study of n-alkane and n-alkanoic acid homologue distributions, δ2H values, and δ13C values from west Greenland, including measurements of terrestrial and aquatic plants, algae, and Nostoc (colonial cyanobacteria). By examining samples collected from the same region and season, we focus on climate-independent factors that may affect the δ2H values of sedimentary plant waxes. We observe that the average abundance of leaf n-alkyl lipids (C20-C31) in common terrestrial plants from this region exceeds that in aquatic sources by up to 30×. We also note weaker source specificity in n-alkanoic acids than in n-alkanes. A comparison of these data with surface sedimentary plant waxes from a lake within the study area, previously reported by McFarlin et al. (2019), indicates that at this site both mid-chain and long-chain sedimentary waxes are likely to derive from dominantly terrestrial sources, particularly biased towards the genus Salix. Abundance-weighted isotope data reveal that while terrestrial plants show taxonomic trends in δ2H values, the amplitude of these trends is unlikely to exceed the error of the proxy (the standard deviation on calculated εapp). n-Alkane εapp values are more variable in aquatic than in terrestrial sources, with median values ranging from −115‰ in n-C31 to −143‰ in n-C21. However, because sedimentary waxes at our study site are most similar to terrestrial plants for all homologues (in isotopic composition and proportional abundance), the large variability in aquatic εapp is unlikely to strongly impact sedimentary wax δ2H values here and in comparable environments. Our findings do not support using comparisons of mid- and long-chain homologues to infer differences between lake water and precipitation without independent validation of the source of mid-chain waxes. Nevertheless, we show that homologue abundance, δ2H values, and δ13C values of sedimentary n-alkanes can inform wax-based reconstructions of paleoclimate at high latitudes. This work provides new insights into the wax contributions from west Greenland plant communities and highlights important areas for future studies of arctic plants and plant wax proxies.'
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<>
+<Image src={designSystem} alt="" />
+
